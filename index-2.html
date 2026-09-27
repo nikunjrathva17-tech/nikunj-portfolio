@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nikunj Rathva | Web Developer &amp; Designer</title>
+<meta name="description" content="Nikunj Rathva — beginner web developer building clean, fast, modern websites. View my skills, projects and services.">
+
+<!-- Google Fonts (free) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#home" class="navbar__logo">Nikunj<span>.</span></a>
+
+    <nav class="navbar__nav" id="navMenu">
+      <a href="#home" class="nav-link active-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn--sm btn--primary navbar__cta">Hire Me</a>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ===== HOME / HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__text">
+        <h1 class="hero__title">
+          <span class="reveal" style="--d:0">Hi, I'm Nikunj Rathva.</span><br>
+          <span class="reveal" style="--d:1">I build clean, fast websites.</span>
+        </h1>
+        <p class="hero__subtitle reveal" style="--d:2">
+          I'm an aspiring web developer from Gujarat with a strong interest in website design and technology. I'm learning HTML, CSS, JavaScript and AI tools to turn ideas into clean, responsive websites.
+        </p>
+        <div class="hero__actions reveal" style="--d:3">
+          <a href="#contact" class="btn btn--primary">Contact Me</a>
+          <a href="#projects" class="btn btn--outline">View My Work</a>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal" style="--d:2">
+        <div class="hero__photo-frame">
+          <div class="hero__photo"><img src="images/profile.jpg" alt="Nikunj Rathva"></div>
+        </div>
+        <div class="hero__tag">
+          <span class="dot"></span> Currently learning: JavaScript
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container about__inner">
+      <div class="section__head">
+        <h2>About Me</h2>
+        <div class="section__rule"></div>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            I'm Nikunj Rathva, an aspiring web developer from Gujarat with a strong interest in website design and technology. I'm learning <strong>HTML, CSS, JavaScript</strong> and <strong>AI tools</strong> to turn ideas into clean, responsive and useful websites.
+          </p>
+          <p>
+            I'm building my skills through practical projects and hands-on learning. My goal is to create professional websites for individuals and small businesses while growing step by step as a freelance web developer.
+          </p>
+
+          <ul class="about__goals">
+            <li><span class="check">✓</span> Build 10+ real projects by [YOUR TARGET DATE]</li>
+            <li><span class="check">✓</span> Become confident with JavaScript and responsive design</li>
+            <li><span class="check">✓</span> Start freelancing and take my first paid client</li>
+          </ul>
+        </div>
+
+        <div class="about__side">
+          <h3>What I'm learning right now</h3>
+          <div class="chip-row">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">JavaScript</span>
+            <span class="chip">AI Tools</span>
+            <span class="chip">Responsive Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section--alt" id="skills">
+    <div class="container">
+      <div class="section__head">
+        <h2>My Skills</h2>
+        <div class="section__rule"></div>
+      </div>
+
+      <div class="skills__grid">
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 4 3 12l5 8M16 4l5 8-5 8"/></svg>
+          </div>
+          <h3>HTML</h3>
+          <p>Structuring web pages with clean, semantic markup.</p>
+          <div class="level" data-level="growing" aria-label="Skill level: Growing">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16l-1.5 15L12 21l-6.5-2L4 4Z"/><path d="M7.5 8h9M8 12h8M8.5 16h7"/></svg>
+          </div>
+          <h3>CSS</h3>
+          <p>Styling layouts, responsive design, animations.</p>
+          <div class="level" data-level="growing" aria-label="Skill level: Growing">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 9v6a3 3 0 0 0 3 3h1M18 9v6a3 3 0 0 1-3 3h-1M9 3l1 18M15 3l-1 18"/></svg>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and logic to websites.</p>
+          <div class="level" data-level="learning" aria-label="Skill level: Learning">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Website Design</h3>
+          <p>Planning layouts that look clean and professional.</p>
+          <div class="level" data-level="growing" aria-label="Skill level: Growing">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v3M12 18v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M3 12h3M18 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/><circle cx="12" cy="12" r="4"/></svg>
+          </div>
+          <h3>AI Tools</h3>
+          <p>Using AI assistants to design, code and solve problems faster.</p>
+          <div class="level" data-level="comfortable" aria-label="Skill level: Comfortable">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 9h18M8 4v5"/></svg>
+          </div>
+          <h3>Responsive Design</h3>
+          <p>Making sites work well on mobile, tablet and desktop.</p>
+          <div class="level" data-level="growing" aria-label="Skill level: Growing">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+
+      </div>
+      <p class="skills__legend">● Learning &nbsp; ●● Growing &nbsp; ●●● Comfortable</p>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section__head">
+        <h2>My Projects</h2>
+        <div class="section__rule"></div>
+      </div>
+
+      <div class="projects__grid">
+
+        <article class="project-card">
+          <div class="project-card__image">[PROJECT IMAGE]</div>
+          <div class="project-card__body">
+            <h3>[PROJECT NAME 1]</h3>
+            <p>[Short description — તમે શું બનાવ્યું, કઈ problem solve કરી, કઈ technology વાપરી.]</p>
+            <div class="chip-row chip-row--sm">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
+            </div>
+            <a href="#" class="btn btn--sm btn--outline">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">[PROJECT IMAGE]</div>
+          <div class="project-card__body">
+            <h3>[PROJECT NAME 2]</h3>
+            <p>[Short description — તમે શું બનાવ્યું, કઈ problem solve કરી, કઈ technology વાપરી.]</p>
+            <div class="chip-row chip-row--sm">
+              <span class="chip">HTML</span><span class="chip">CSS</span>
+            </div>
+            <a href="#" class="btn btn--sm btn--outline">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card__image">[PROJECT IMAGE]</div>
+          <div class="project-card__body">
+            <h3>[PROJECT NAME 3]</h3>
+            <p>[Short description — તમે શું બનાવ્યું, કઈ problem solve કરી, કઈ technology વાપરી.]</p>
+            <div class="chip-row chip-row--sm">
+              <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JS</span>
+            </div>
+            <a href="#" class="btn btn--sm btn--outline">View Project</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section__head">
+        <h2>My Services</h2>
+        <div class="section__rule"></div>
+      </div>
+
+      <div class="services__grid">
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 4 3 12l5 8M16 4l5 8-5 8"/></svg>
+          </div>
+          <h3>Website Design</h3>
+          <p>Clean, modern designs that represent you or your brand well.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h3"/></svg>
+          </div>
+          <h3>Business Website</h3>
+          <p>A complete website to showcase your business online.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 7h6M9 11h6M9 15h3"/></svg>
+          </div>
+          <h3>Landing Page</h3>
+          <p>A focused single page to promote a product, service or event.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 4v3M12 17v3M4 12h3M17 12h3"/><circle cx="12" cy="12" r="5"/></svg>
+          </div>
+          <h3>Website Maintenance</h3>
+          <p>Updates, fixes and small changes to keep your site running well.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section__head">
+        <h2>Contact Me</h2>
+        <div class="section__rule"></div>
+      </div>
+
+      <div class="contact__grid">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send Message</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-side">
+          <a href="https://wa.me/919723350560" class="contact-btn contact-btn--whatsapp" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2Zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20Zm4.4-5.9c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.3.2-.4.1-.2 0-.3 0-.4l-.7-1.7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2.9 2.4c.1.2 1.6 2.4 3.8 3.4.5.2.9.4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.4-.6 1.6-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3Z"/></svg>
+            WhatsApp Me
+          </a>
+
+          <a href="mailto:nikunjrathva17@gmail.com" class="contact-btn contact-btn--email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 6 8 6 8-6"/></svg>
+            nikunjrathva17@gmail.com
+          </a>
+
+          <div class="social-row">
+            <a href="https://www.instagram.com/moose.7840044" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div>
+      <p class="footer__name">Nikunj Rathva</p>
+      <p class="footer__tag">Web Developer &amp; Designer</p>
+    </div>
+    <nav class="footer__links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#home" class="footer__top" aria-label="Back to top">↑ Top</a>
+  </div>
+  <p class="footer__copy">© <span id="year"></span> Nikunj Rathva. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
